@@ -6,7 +6,9 @@ namespace CoinToss
     {
         static void Main(string[] args)
         {
-            Random and  jnvn
+            Random rand = new Random();
+            int randomNBr = rand.Next(1, 3);
+            Console.WriteLine($"{randomNBr}");
         }
     }
 }
